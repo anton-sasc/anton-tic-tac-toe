@@ -1,7 +1,8 @@
-var tdElements = document.getElementsByTagName ('TD');
+var tdElements = document.getElementsByTagName ('TD' , 5);
 for (var tdElement of tdElements) {
 tdElement.addEventListener('click',handleClick)
 }
-function handleClick() {
-  alert('hello');
+function handleClick(event) {
+var target = event.target;
+target.innerHTML = 'X';
 } 
