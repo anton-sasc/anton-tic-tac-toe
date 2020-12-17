@@ -1,8 +1,7 @@
-var tdElements = document.getElementsByTagName ('TD' , 5);
-for (var tdElement of tdElements) {
-tdElement.addEventListener('click',handleClick)
-}
-function handleClick(event) {
-var target = event.target;
-target.innerHTML = 'X';
-} 
+import "./style.css";
+import "./extra.css";
+import { basicVar } from "./basic";
+import { extraVar } from "./extra";
+
+console.log(basicVar + extraVar);
+
