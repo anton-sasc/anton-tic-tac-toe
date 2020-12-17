@@ -9,9 +9,7 @@ var board = [
   ["X", "O", null] //
 ];
 
-if (board[2][2]) {
-  // alert(board[2][2]);
-}
+
 
 for (var tdElement of tdElements) {
   tdElement.addEventListener("click", handleClick);
