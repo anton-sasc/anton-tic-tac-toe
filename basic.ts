@@ -20,6 +20,12 @@ var winningConditions = [
   [{ row: 0, column: 2 }, { row: 1, column: 1 }, { row: 0, column: 2 }]
 ];
 
+function whoWon ()   (
+for (var winningCondition of winningConditions)
+var winningValue = whowonACodition
+
+)
+
 function whoWon() {
   // return 'X' 'O' or null
   return null;
